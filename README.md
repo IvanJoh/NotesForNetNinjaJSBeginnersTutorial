@@ -1,9 +1,10 @@
 # Notes for the NetNinja Tutorial on JavaScript for Beginners
-In this file, I have all the notes for the tutorial that I have made while watching the videos
+Summary of the content covered in the playlist by NetNinja
 
 [playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
 
 ## Video 2
+**What is JavaScript?**
 - JavaScript is one of the three core languages for web development (HTML, CSS, JS)
 - JS is a scripting language and NOT a programming language
 - JS is a client side language
@@ -11,16 +12,19 @@ In this file, I have all the notes for the tutorial that I have made while watch
 - JavaScruipt has NOTHING to do with JAVA
 
 ## Video 5
+**Where to put your JS**
 - HTML loads from top to bottom so beware where you put the script tag for JS
 - Asynchronous scripts can be put in the head tag
 
 ## Video 7
+**Basic JS Syntax & Rules**
 - JS is case sensitive 
 - JS statements are ended with a ";"
 - Not sensitive to whitespace
 - JS runs from top to bottom
 
 ## Video 8
+**JS Variables**
 - Use variables to store information
 - Define variable with "let"
 - Declaring a variable allocates a space of memory to that variable
@@ -29,6 +33,7 @@ In this file, I have all the notes for the tutorial that I have made while watch
 - Variable names cannot start with a number
 
 ## Video 9
+**Basic Mathematical Operators**
 - 5 common operators are =, +, -, /, *
 - "=" is the assignment operator
 - "+" is addition
@@ -39,12 +44,14 @@ In this file, I have all the notes for the tutorial that I have made while watch
 - returns NaN when trying to do other mathematical operations on non-number data types
 
 ## Video 10
+**Math Operator Short-hand**
 - += is shorthand to adding something to the original value
 - -= is shorthand to subtracting something to the original value
 - same with /= and *=
 - shorthand for incrementing and decrementing are ++ and --
 
 ## Video 11
+**Logging to the console**
 - When writing messages to the document, use document.write()
 - When writing messages to the console, use console.log()
 
@@ -413,3 +420,18 @@ title.onmouseOver = function() {
 **Accessing Form Elements**
 - Access forms in the document via the document.forms.formName property
 - Forms have many properties that can be used for creating interactive forms
+
+## Video 45
+**VERY Simple Form Validation**
+- Do form validation to make sure required data is in order on the client side before sending to the server
+- Use the form onsubmit property
+
+## Video 46
+**JavaScript Libraries**
+- A chunk of JavaScript packaged for reuse
+- jQuery is the most popular JS library
+- Link to a jQuery CDN in the script tag in head
+
+## Video 47
+**What Next?**
+- JavaScript libraries: jQuery, MooTools, Modernizer
